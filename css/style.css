@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 30px 70px;
+  background-image: radial-gradient(rgb(25, 45, 56) 0px, rgb(33, 31, 47) 100%);
+    color: white;
+    
+}
+p{
+    display: inline-block;
+}
+button{
+    padding: 2px 5px;
+}
+.box-property-container{
+    padding: 50px;
+    border: 2px solid white;
+    background-image: radial-gradient(rgb(25, 45, 56) 0px, rgb(33, 31, 47) 100%);
+    & h1{
+        text-align: center;
+    }
+    
+}
+.box-main-div{
+    padding: 20px;
+   
+    border: 2px solid white;
+
+     background-image: radial-gradient(rgb(25, 45, 56) 0px, rgb(33, 31, 47) 100%);
+}
+.col-1{
+    display: flex;
+  
+}
+.col-2{
+    display: flex;
+    justify-content: space-between;
+}
+.col-3{
+      display: flex;
+   justify-content: space-between;  
+}
+.box-1{
+      height: 300px;
+      width: 300px;
+     
+      border: 1px solid white;
+
+
+
+
+
+
+}
+.box-1-1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+h2{
+    text-align: center;
+}
+.box-2{
+  height: 400px;
+      width: 500px;
+background-color: aliceblue;
+ display: grid;
+ place-content: center;
+   border: 1px solid white;
+}
+.box-2-1{
+    height: 200px;
+    aspect-ratio: 1;
+    background-color:black;
+}
+.box-3{
+         height: 300px;
+         width: 320px;
+         border: 1px solid white;
+     
+}
+.box-4{
+  height: 300px;
+      width: 300px;
+      
+        border: 1px solid white;
+
+
+}
+.box-5{
+        height: 300px;
+        width: 300px;
+        border: 1px solid white;}
+
+
+.box-6{
+    margin-top: 60px;
+}
+
+
+/***** box-2 *****/ 
+.box-3-1{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+
+
+/***** End box-2 *****/
+
+
+/***** box-4 *****/  
+.box-4-1{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+/***** End box-4 *****/
+
+
+/***** box 5 *****/
+.box-5-1{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+
+
+
+}
+
+
+/***** End box 5 *****/
+/***** copy div*****/  
+.copy-div{
+    
+    border: 1px solid white;
+    height: 200px;
+    width: 400px;
+    max-height: 200px;
+    overflow-y: auto;
+    max-width: 400px;
+    overflow-x:auto ;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/***** End copy div*****/
+
+
+/***** button *****/ 
+button{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    
+}
+.getitems{
+    padding: 5px;
+    
+}
+.getitems:hover{
+    background-color: white;
+    color: black;
+}
+.copytext{
+    padding: 5px;
+}
+.copytext:hover{
+        background-color: white;
+    color: black;
+}
+button:hover{
+          background-color: white;
+    color: black;
+}
+/***** End button *****/
+
+
+
+
+
+
+
+
